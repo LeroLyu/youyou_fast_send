@@ -145,7 +145,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ReggieApplication (1)">
+  <component name="RunManager" selected="Spring Boot.YouApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="youyou_fast_send" />
       <method v="2">
@@ -159,19 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReggieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="youyou_fast_send" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.levyro.takeout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="site.levyro.takeout.ReggieApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="youyou_fast_send" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
@@ -179,9 +166,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YouApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="youyou_fast_send" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.levyro.takeout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.levyro.takeout.YouApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ReggieApplication (1)" />
+        <item itemvalue="Spring Boot.YouApplication" />
       </list>
     </recent_temporary>
   </component>
