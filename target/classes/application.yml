@@ -24,8 +24,5 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 
-  type-aliases-package: com.itheima.reggie.entity
-  mapper-locations: classpath:com/itheima/reggie/mapper/*Mapper.xml
-
 reggie:
   path: /Users/lero/Desktop/img/

@@ -6,14 +6,171 @@
   <component name="ChangeListManager">
     <list default="true" id="bc827e52-71d7-4bc3-bd57-f812c9682ef1" name="Changes" comment="v1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/common/BaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/common/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/JacksonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/common/JacksonObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/OrderDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/OrderDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/dto/DishDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/dto/SetmealDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/dto/SetmealDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/DishFlavor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/DishFlavor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/Setmeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/SetmealDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/SetmealDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/AddressBookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/AddressBookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/DishFlavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/DishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/MyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/MyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/OrderDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/SetmealDishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/SetmealMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/SetmealMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/ShoppingCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/AddressBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/AddressBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/DishFlavorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/DishFlavorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/OrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/OrderDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/SetmealDishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/SetmealDishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/ShoppingCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/AddressBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/SetmealDishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/ShoppingCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/utils/SMSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/utils/SMSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/utils/ValidateCodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/levyro/takeout/utils/ValidateCodeUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/itheima/reggie/mapper/DishMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/itheima/reggie/mapper/MyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/DishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/page/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/images/login/login-l.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/images/login/login-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/images/login/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/images/login/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/ReggieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/common/BaseContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/common/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/common/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/common/JacksonObjectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/common/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/AddressBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/CommonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/DishController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/EmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/OrderDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/SetmealController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/ShoppingCartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/dto/DishDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/dto/SetmealDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/AddressBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Dish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/DishFlavor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/OrderDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Setmeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/SetmealDish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/ShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/filter/LoginCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/AddressBookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/DishFlavorMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/DishMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/DishMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/MyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/MyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/OrderDetailMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/SetmealDishMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/SetmealMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/ShoppingCartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/AddressBookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/DishFlavorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/DishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/OrderDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/SetmealDishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/SetmealService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/ShoppingCartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/AddressBookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/DishFlavorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/DishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/OrderDetailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/SetmealDishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/SetmealServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/ShoppingCartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/utils/ValidateCodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/favico.ico" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/images/favico.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,21 +226,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/front/images" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/front/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/backend" />
+      <recent name="$PROJECT_DIR$/src/main/resources/backend/images/login" />
       <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller" />
       <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ReggieApplication (1)">
+    <configuration name="ReggieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie_take_out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.levyro.takeout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.levyro.takeout.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="reggie_take_out" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
@@ -91,6 +261,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReggieApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

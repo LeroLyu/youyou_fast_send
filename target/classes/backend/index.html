@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>瑞吉外卖管理端</title>
+    <title>攸攸快送管理端</title>
     <link rel="shortcut icon" href="favicon.ico">
     <!-- 引入样式 -->
     <link rel="stylesheet" href="plugins/element-ui/index.css" />
@@ -30,7 +30,7 @@
       <div class="app-wrapper openSidebar clearfix">
         <!-- sidebar -->
         <div class="sidebar-container">
-          <div class="logo">
+          <div class="logo" style="background-color: #4682B4">
             <!-- <img src="images/logo.png" width="122.5" alt="" /> -->
             <img src="images/login/login-logo.png" alt="" style="width: 117px; height: 32px" />
           </div>
@@ -40,7 +40,7 @@
               :default-active="defAct"
               :unique-opened="false"
               :collapse-transition="false"
-              background-color="#343744"
+              background-color="#4682B4"
               text-color="#bfcbd9"
               active-text-color="#f4f4f5"
             >
@@ -124,7 +124,7 @@
               //   children: [
                   {
                     id: '2',
-                    name: '员工管理',
+                    name: '职员管理',
                     url: 'page/member/list.html',
                     icon: 'icon-member'
                   },
@@ -136,7 +136,7 @@
                   },
                   {
                     id: '4',
-                    name: '菜品管理',
+                    name: '品类管理',
                     url: 'page/food/list.html',
                     icon: 'icon-food'
                   },
